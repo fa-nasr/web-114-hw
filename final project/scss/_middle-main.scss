@@ -1,0 +1,138 @@
+.our-mission{
+    background-color: rgb(27, 31, 34);
+}
+.titr{
+    width: 150px;
+    border-bottom: 3px solid white;
+    position: relative;
+    margin: auto 50%;
+    transform: translate(50% , 0);
+}
+.titr-muted{
+    width: 200px;
+    border-bottom: 3px solid gray;
+    position: relative;
+    margin: auto 50%;
+    transform: translate(50% , 0);
+}
+.titr-card{
+    width: 150px;
+    border-bottom: 1px solid white;
+    position: relative;
+    margin: auto 50%;
+    transform: translate(50% , 0);
+}
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-6 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-7 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .display-8 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .pad-r{
+      padding-right: 70px;
+  }
+  
+  .wrap {
+    overflow: hidden;
+    display: flex;
+}
+
+.wrap.auto-wrap {
+    flex-wrap: wrap;
+}
+
+.wrap .column {
+    flex: 1;
+    padding: 16px;
+}
+
+  /* collection */
+.img-1{
+        
+    padding: 0;
+    max-width: 100%;
+   
+    box-shadow: 2px 2px 30px black;
+ 
+}
+.h4-c{
+width: 70%;
+background-color:rgba(128, 128, 128, 0.747);
+text-align: left;
+position: absolute;
+top:70%;
+left: 50%;
+transform: translate(-33%,0);
+font-size: 20px;
+color: white;
+
+
+
+}
+// gallery
+.img-2{
+    padding: 0;
+    max-width: 100%;
+    
+}
+.my-car{
+    background-color: rgb(41, 39, 39);
+}
+.img-3{
+    width: 160px;
+    height: 90px;
+    border-radius: 50%;
+    
+}
+.zard{
+    background-color: transparent;
+    color: yellow;
+}
+.img-4{
+    background:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(../images/pricing-card-bg.jpeg) center center;
+    box-shadow: 2px 2px 30px black;
+    width: 100%;
+    
+
+}
+.tr-bg{
+    background-color: transparent;
+}
+.list-group{
+   
+    .list-group-item{
+        border: none;
+        border-bottom: 1px solid white;
+    }
+}
+.img-5{
+   background: linear-gradient(120deg,rgba(0,0,0,.85)50%,rgba(0,0,0,.1)50%) , url(../images/form-img.jpeg) center center;
+   
+    
+}
+.inp-style{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #999;
+    border-radius: 0;
+}
+.inp-style:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #dc3545;
+    color: #fff;
+}

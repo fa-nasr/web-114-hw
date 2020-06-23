@@ -1,0 +1,15 @@
+.full-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "head" "mai" "foo";
+}
+header{
+    grid-area: head;
+}
+main{
+    grid-area: mai;
+}
+footer{
+    grid-area: foo;
+}

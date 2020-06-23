@@ -1,0 +1,57 @@
+.nav-mine{
+    background-color: $bg-shab;
+   
+    ul{
+    font-size: $fs-20;
+    }   
+
+    h3{
+        font-size:$fs-25 ;
+    }
+     
+}
+#navbar{
+    transition: 0.4s;
+    padding: 25px 0px;
+}
+
+.welcome{
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(../images/header-img.jpeg) center center;
+    height: 100vh;
+    font-size:$fs-30 ;
+    h6{
+        font-size: $fs-20;
+    }
+
+
+    
+}
+.mar-50{
+    margin: auto 25% auto auto;
+}
+.nav-item.active .nav-link,
+.nav-item:focus .nav-link,
+.nav-item:hover .nav-link {
+  text-decoration: none;
+  color: #467ac4 !important;
+}
+@media screen and (min-width: 768px) {
+    .head-ul{
+        order: 1;
+        
+    }
+    .photox{
+        order: 2;
+
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: none;
+        color: white;
+        
+    }
+  }
